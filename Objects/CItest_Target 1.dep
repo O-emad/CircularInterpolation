@@ -1,0 +1,31 @@
+Dependencies for Project 'CItest', Target 'Target 1': (DO NOT MODIFY !)
+F (C:\Keil_v5\ARM\Startup\TM4C123\startup_TM4C123.s)(0x59491938)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 523" --pd "TM4C123GH6PM SETA 1"--list .\listings\startup_tm4c123.lst --xref -o .\objects\startup_tm4c123.o --depend .\objects\startup_tm4c123.d)
+F (.\main.c)(0x59962794)(--c99 -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I "D:\TM4C123 Lib"-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DTM4C123GH6PM-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F65B16)
+I (D:\TM4C123 Lib\tm4c123gh6pm.h)(0x5838E457)
+I (global.h)(0x5995DE6F)
+I (D:\TM4C123 Lib\PLL.h)(0x58AD6792)
+I (D:\TM4C123 Lib\SysTick.h)(0x58CC12EB)
+F (.\circle.c)(0x59977B6D)(--c99 -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I "D:\TM4C123 Lib"-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DTM4C123GH6PM-o .\objects\circle.o --omf_browse .\objects\circle.crf --depend .\objects\circle.d)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F65B16)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F65B18)
+I (global.h)(0x5995DE6F)
+I (Misc.h)(0x58DD2370)
+I (D:\TM4C123 Lib\SysTick.h)(0x58CC12EB)
+I (D:\TM4C123 Lib\UART.h)(0x590395E2)
+F (.\global.h)(0x5995DE6F)()
+F (D:\TM4C123 Lib\PLL.c)(0x58B83C9E)(--c99 -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I "D:\TM4C123 Lib"-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DTM4C123GH6PM-o .\objects\pll.o --omf_browse .\objects\pll.crf --depend .\objects\pll.d)
+I (D:\TM4C123 Lib\tm4c123gh6pm.h)(0x5838E457)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+F (D:\TM4C123 Lib\SysTick.c)(0x59584110)(--c99 -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I "D:\TM4C123 Lib"-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DTM4C123GH6PM-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (D:\TM4C123 Lib\SysTick.h)(0x58CC12EB)
+F (.\Misc.c)(0x5996F54C)(--c99 -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I "D:\TM4C123 Lib"-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DTM4C123GH6PM-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (D:\TM4C123 Lib\tm4c123gh6pm.h)(0x5838E457)
+F (D:\TM4C123 Lib\UART.c)(0x59270EF9)(--c99 -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I "D:\TM4C123 Lib"-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DTM4C123GH6PM-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (D:\TM4C123 Lib\tm4c123gh6pm.h)(0x5838E457)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F65B18)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F65B18)

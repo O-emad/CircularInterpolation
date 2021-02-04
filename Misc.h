@@ -1,0 +1,55 @@
+#define PA 0x00000001
+#define PB 0x00000002
+#define PC 0x00000004
+#define PD 0x00000008
+#define PE 0x00000010
+#define PF 0x00000020
+
+#define T0 0x00000001
+#define T1 0x00000002
+#define T2 0x00000004
+#define T3 0x00000008
+#define T4 0x00000010
+#define T5 0x00000020
+
+#define U0 0x00000001
+#define U1 0x00000002
+#define U2 0x00000004
+#define U3 0x00000008
+#define U4 0x00000010
+#define U5 0x00000020
+#define U6 0x00000040
+#define U7 0x00000080
+
+#define T0A 0x00000001
+#define T0B 0x00000002
+#define T1A 0x00000004
+#define T1B 0x00000008
+#define T2A 0x00000010
+#define T2B 0x00000020
+#define T3A 0x00000040
+#define T3B 0x00000080
+#define T4A 0x00000100
+#define T4B 0x00000200
+#define T5A 0x00000400
+#define T5B 0x00000800
+#define WT0A 0x00001000
+#define WT0B 0x00002000
+#define WT1A 0x00004000
+#define WT1B 0x00008000
+#define WT2A 0x00010000
+#define WT2B 0x00020000
+#define WT3A 0x00040000
+#define WT3B 0x00080000
+#define WT4A 0x00100000
+#define WT4B 0x00200000
+#define WT5A 0x00400000
+#define WT5B 0x00800000
+
+void Sync(uint32_t timers);
+void Async(uint32_t timers);
+void CLK_GPIO(uint32_t ports);
+void CLK_GPTM(uint32_t timers);
+void CLK_WGPTM(uint32_t timers);
+void CLK_UART(uint32_t uart);
+int adjust_num(double num);
